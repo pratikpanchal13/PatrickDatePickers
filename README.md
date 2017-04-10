@@ -38,8 +38,48 @@ import PatrickDatePickers
 ````
 
 create datePicker object & dateFormatter
+````ruby
+
   var datePicker = PKDatePickers.getFromNib()
   var dateFormatter = DateFormatter()
+````
+
+create  function setupDatePicker() and call in ViewDidLoad
+````ruby
+
+fileprivate func setupDatePicker() {
+        
+    datePicker.delegate = self
+
+    datePicker.config.startDate = Date()
+
+    datePicker.config.animationDuration = 0.25
+
+    datePicker.config.cancelButtonTitle = "Cancel"
+    datePicker.config.confirmButtonTitle = "Confirm"
+
+    datePicker.config.contentBackgroundColor = UIColor(red: 253/255.0, green: 253/255.0, blue: 253/255.0, alpha: 1)
+    datePicker.config.headerBackgroundColor = UIColor(red: 244/255.0, green: 244/255.0, blue: 244/255.0, alpha: 1)
+    datePicker.config.confirmButtonColor = UIColor(red: 32/255.0, green: 146/255.0, blue: 227/255.0, alpha: 1)
+    datePicker.config.cancelButtonColor = UIColor(red: 32/255.0, green: 146/255.0, blue: 227/255.0, alpha: 1)
+
+ }
+    
+  ````
+
+
+Add PKDatePickersDelegate Delegate Method
+````ruby
+extension SettingVC: PKDatePickersDelegate {
+    
+    func pkDatePickers(_ pkDatePickers: PKDatePickers, didSelect date: Date) {
+    }
+    func pkDatePickersDidCancelSelection(_ pkDatePickers: PKDatePickers) {
+    }
+    
+}
+
+  ````
 
 
 ## Author
