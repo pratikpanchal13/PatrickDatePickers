@@ -29,6 +29,19 @@ pod 'PatrickDatePickers', :git => 'https://github.com/pratikpanchal13/PatrickDat
 ````
 
 
+## USAGE
+
+import PatrickDatePickers in ViewController.swift
+
+````ruby   
+import PatrickDatePickers
+````
+
+create datePicker object & dateFormatter
+  var datePicker = PKDatePickers.getFromNib()
+  var dateFormatter = DateFormatter()
+
+
 ## Author
 
 pratikpanchal131, pratik.pancha13@gmail.com
