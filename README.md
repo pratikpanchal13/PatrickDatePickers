@@ -25,7 +25,7 @@ it, simply add the following line to your Podfile
 ````ruby
 use_frameworks!
 
-pod 'PatrickDatePickers',
+pod 'PatrickDatePickers', :git => 'https://github.com/pratikpanchal13/PatrickDatePickers.git'
 ````
 
 
