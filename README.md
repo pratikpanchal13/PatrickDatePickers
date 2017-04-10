@@ -11,6 +11,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+* Swift 3.0
+* Xcode 8
+* iOS 9.0+
+
 ## Installation
 
 PatrickDatePickers is available through [CocoaPods](http://cocoapods.org). To install
