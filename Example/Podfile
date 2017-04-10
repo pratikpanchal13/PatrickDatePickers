@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'PatrickDatePickers_Example' do
-  pod 'PatrickDatePickers', :path => '../'
+  pod 'PatrickDatePickers', :path => 'https://github.com/pratikpanchal13/PatrickDatePickers.git'
 
   target 'PatrickDatePickers_Tests' do
     inherit! :search_paths
