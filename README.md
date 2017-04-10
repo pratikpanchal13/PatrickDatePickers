@@ -17,12 +17,17 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-PatrickDatePickers is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+#### [CocoaPods](http://cocoapods.org) (recommended)
 
-```ruby
-pod "PatrickDatePickers"
-```
+MST1 is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile
+
+````ruby
+use_frameworks!
+
+pod 'PatrickMultipleSelectionTableview', :git => 'https://github.com/pratikpanchal13/PatrickMultipleSelectionTableview.git'
+````
+
 
 ## Author
 
