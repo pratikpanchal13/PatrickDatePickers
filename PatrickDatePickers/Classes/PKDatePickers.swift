@@ -63,7 +63,7 @@ public class PKDatePickers: UIView {
     // MARK: - Init
     public static func getFromNib() -> PKDatePickers {
         let podBundle = Bundle(for: PKDatePickers.self)
-        let bundleURL = podBundle.url(forResource: "PKDatePickers", withExtension: "bundle")
+        let bundleURL = podBundle.url(forResource: "PatrickDatePickers", withExtension: "bundle")
         let bundle = Bundle(url: bundleURL!)!
         return UINib(nibName: "PKDatePickers", bundle: bundle).instantiate(withOwner: nil, options: nil)[0] as! PKDatePickers
     }
