@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PatrickDatePickers_Example' do
+  pod 'PatrickDatePickers', :path => '../'
+
+  target 'PatrickDatePickers_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
