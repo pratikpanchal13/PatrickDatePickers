@@ -1,0 +1,6 @@
+framework module Pods_PatrickDatePickers_Example {
+  umbrella header "Pods-PatrickDatePickers_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

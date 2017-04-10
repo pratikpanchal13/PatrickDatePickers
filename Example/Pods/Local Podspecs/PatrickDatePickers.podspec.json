@@ -1,0 +1,22 @@
+{
+  "name": "PatrickDatePickers",
+  "version": "0.1.0",
+  "summary": "A short description of PatrickDatePickers.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pratikpanchal131/PatrickDatePickers",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pratikpanchal131": "pratik.pancha13@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/pratikpanchal131/PatrickDatePickers.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PatrickDatePickers/Classes/**/*"
+}

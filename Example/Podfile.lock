@@ -1,0 +1,16 @@
+PODS:
+  - PatrickDatePickers (0.1.0)
+
+DEPENDENCIES:
+  - PatrickDatePickers (from `../`)
+
+EXTERNAL SOURCES:
+  PatrickDatePickers:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PatrickDatePickers: 540051648bd83ed106e95ffef0c6225504591de0
+
+PODFILE CHECKSUM: 60dd00c6c0701eb887eafa36a9001ca6dfa02f7c
+
+COCOAPODS: 1.2.0
